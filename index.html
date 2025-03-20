@@ -1,17 +1,16 @@
-vin du Marquis
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="script.js"></script>
+    
     <meta charset="UTF-8">
     <title>The Wine Shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="textChnage">
     <div class = intro>
         <h3>Welcome to...</h3>
-        <h1 id = title>The wine shop</h1>
+        <h1 id = title><span class = "show">D</span>efarge's w<span class = "show">i</span>n<span class = "show">e shop</span> </h1>
     </div>
 
     <h2 id = subTitle>What would you like to order?</h2>
@@ -20,43 +19,71 @@ vin du Marquis
         <button onclick="myFunction()">Submit</button>
     </div>
 
-    <h2 id = subTitle>Why us?</h2>
+    <h2 id = subTitle class="show">Why us?</h2>
     <div class = about>
         <figure>
         <img src="photos/Madame Defarge.jpg" alt="photos"  height="500"></img>
-        <figcaption> "Madame Defarge", owner of "The Wine Shop"</figcaption>
+        <figcaption class = "show" class = "Jacques"> "Madame Defarge", owner of "The Wine Shop"</figcaption>
         </figure>
-        <h4>introduction :D</h4>
+        <div>
+            <h3 class = "show" id = defarge >in our wine shop, we put quality over quantity. we are dedicated to giving you the most amount of <br>wine while having a great taste. while some critics have stated how our services are too “slow”, we <br> say that quality wine comes from the long and hard process, and that when the time comes, you will<br> get your quality wine fresh from the source. so what are you waiting for ! visit us today down the str-<br>-eet, and you too could Join the lArger movement into Creating Quality and Unique winE to the masseS. </h4>
+        </div>
     </div>
+    
 
-    <h2 id = subTitle>Most Popular</h2>
+    <h2 id = subTitle class="show">Most Popular</h2>
     <div class = popular>
+        <div >
+    
         <figure>
-            <img src="photos/Chateau Haut-Brion.webp" alt="photos" height="500" ></img>
-            <figcaption> Chateau Haut-Brion</figcaption>
+            <img id = evermond src="photos/Chateau Haut-Brion.webp" alt="photos" height="500" ></img>
+            <figcaption class = "show" id = king> Chateau Haut-Brion</figcaption>
+            
         </figure>
+        <h4 id = evermon class="show"></h4>
+        </div>
+
+        <div>
         <figure>
-            <img src="photos/Cognac.png" alt="photos"  height="500px" ></img>
-            <figcaption> Cognac </figcaption>
+            <img id = barsad src="photos/Cognac.png" alt="photos"  height="500px" ></img>
+            <figcaption class = "show" id = spy > Cognac </figcaption>
         </figure>
+        <h4 id = "spyT" class = "show"></h4>
+        </div>
+
+        <div>
         <figure>
-            <img src="photos/Beer.webp" alt="photos" height = 500px ></img>
-            <figcaption> Benedictine </figcaption>
+            <img id = darney src= photos/Beer.webp alt="photos" height = 500px ></img>
+            <figcaption class = "show" id = fakeKing> Benedictine </figcaption>
         </figure>
+        <h4 id = "niceGuy" class = "show"></h4>
+        </div>
+        
     </div>
+    
+   
+
      
-    <h2 id = subTitle>Reviews</h2>
+    <h2 id = subTitle class="show">Reviews</h2>
     <div class = review>
-        <img src="photos/Vengence.jpg" alt="photos" height = 500px ></img>
-        <h4>insert review</h4>
-        <img src="photos/Mender of roads.jpg" alt="photos" height = 500px ></img>
-        <h4>insert review</h4>
+        <figure>
+        <img src="photos/Vengence.jpg" alt="photos" height = 300px ></img>
+        <figcaption class ="show" id = "Vengence" >-Vanessa</figcaption>
+        </figure>
+        <h3 class = "show" id = V>⠀ This quaint little wine shop is one <br>⠀ of the best I have ever been to. <br>  ⠀The wine there was fresh and had a <br>⠀grand presentation, as if freshly made.<br>⠀ And the owners are some of the most <br>⠀clever owners out there. If they were <br> ⠀ chiefs, then  I willingly obey the orders <br>⠀ of my Chief ⭐⭐⭐⭐⭐ </br></h3>
+        <figure>
+        <img src="photos/Mender of roads.jpg" alt="photos" height = 300px ></img>
+        <figcaption id = "Wood" class = "show"> -Mendel </figcaption>
+        </figure>
+        <h4 class = "show" id = "MOR">This shop hangs high on my list of favorite wine shops.She always acts the same way, back of <br>the counter, twiddling her needles left to right, up and down. She dawned an almost pale <br>face, as if she was focused. That is delivering the best service possible. Hanging from her <br>needle stood her latest creation, a small towel. Inscribed into it is a series of two lines of <br>characters. On top contained a series of numbers ranging from 1-9. On the bottom, <br>contained the following assortment of characters !@#$%^&*(). Next to her sat a rose, its <br>peddles stained red from previous encounters with red wine.Sitting there, almost statue, it's<br> almost admirable how patient and dedicated she is while running a wine shop .⭐⭐⭐⭐⭐</h4>
 
     </div>
 
     <div class = contact>
-        <h2 id = subTitle>Contact Us</h2>
-
+        <h2 id = subTitle>Contact Us⠀⠀</h2>
+        <div>
+        <h2>⠀⠀⠀⠀⠀⠀⠀⠀Saint Antoine 1382 </h2>
+        </div>
     </div>
 
     
@@ -65,5 +92,8 @@ vin du Marquis
 
 
 
-
+    <script src="script.js"></script>
 </body>
+    
+
+
